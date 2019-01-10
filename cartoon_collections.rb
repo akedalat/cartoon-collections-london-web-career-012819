@@ -6,10 +6,9 @@ end
 
 def summon_captain_planet(planeteer)
 new_array = []
-planeteer.collect do |names|
-new_array.push(names.capitalize + "!")
+planeteer.map {|names| names.capitalize + "!"}
 end
-return new_array
+
 end
 
 def long_planeteer_calls# code an argument here
