@@ -23,5 +23,5 @@ if cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
 return cheese
 end
   end
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  return nil
 end
