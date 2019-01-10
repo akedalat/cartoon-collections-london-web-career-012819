@@ -5,14 +5,15 @@ puts "#{n+1} #{dwarves}"
 end
 
 def summon_captain_planet(planeteer)
-
 planeteer.map {|names| names.capitalize + "!"}
-
-
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  array.each do |calls|
+if calls.length > 4 
+  return true
+  end
+  return false
 end
 
 def find_the_cheese# code an argument here
